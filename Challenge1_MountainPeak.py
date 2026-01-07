@@ -1,6 +1,6 @@
 import time
 
-def climb_mountain(n):
+def count_ways_to_summit(n):
     if n <= 1:
         return n
     
@@ -20,11 +20,11 @@ def climb_mountain(n):
 n = int(input("Enter the number of steps to the mountain peak: "))
 
 start_time = time.perf_counter()
-ways = climb_mountain(n)
+ways = count_ways_to_summit(n)
 end_time = time.perf_counter()
 
 elapsed_time = end_time - start_time
 
-#It asked for number of ways and not the actual paths, cause the paths can not be done in less than 1 second i think. Will update if needed.
+#It asked for number of ways and not the actual paths.
 print(f"For {n} steps, there are {ways} distinct ways to reach the mountain peak.")
 print(f"Time taken to compute: {elapsed_time:.10f} seconds")
