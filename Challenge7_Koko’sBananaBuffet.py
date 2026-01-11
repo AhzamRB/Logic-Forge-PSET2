@@ -23,9 +23,9 @@ def calculate_minimum_speed(piles, k):
 #Example 1
 piles1 = [5, 10, 3]
 k1 = 4
-print(f"Example 1 Output: {calculate_minimum_speed(piles1, k1)}")
+print(f"Speed: {calculate_minimum_speed(piles1, k1)} Bananas/Hour")
 
 #Example 2
 piles2 = [5, 10, 15, 20]
 k2 = 7
-print(f"Example 2 Output: {calculate_minimum_speed(piles2, k2)}")
+print(f"Speed: {calculate_minimum_speed(piles2, k2)} Bananas/Hour")
